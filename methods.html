@@ -1,0 +1,70 @@
+<!-- ============================================================ -->
+<!-- ملف: methods.html -->
+<!-- ============================================================ -->
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>طرق التشفير - ElnegmCrypt</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/cyber-style.css" />
+  <link rel="stylesheet" href="css/neon-glow.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/terminal.css" />
+  <link rel="stylesheet" href="css/logo.css" />
+  <link rel="stylesheet" href="css/matrix-bg.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <canvas id="matrix-canvas"></canvas>
+  <canvas id="particles-canvas"></canvas>
+  <div class="app-wrapper">
+    <header class="header">
+      <div class="logo">ElnegmCrypt</div>
+      <nav class="nav-links">
+        <a href="index.html"><i class="fas fa-lock"></i> تشفير</a>
+        <a href="decrypt.html"><i class="fas fa-unlock"></i> فك</a>
+        <a href="history.html"><i class="fas fa-history"></i> سجل</a>
+        <a href="about.html"><i class="fas fa-info-circle"></i> عن</a>
+        <a href="methods.html"><i class="fas fa-cogs"></i> طرق</a>
+        <a href="admin/dashboard.html"><i class="fas fa-chart-line"></i> لوحة</a>
+      </nav>
+    </header>
+    <section class="card">
+      <div class="card-title"><i class="fas fa-cogs"></i> طرق التشفير المدعومة</div>
+      <div class="row">
+        <div class="col" style="border:1px solid #00FF4144;border-radius:20px;padding:1.2rem;">
+          <h3 style="color:#00FF41;"><i class="fas fa-code"></i> Base64</h3>
+          <p>تشفير قياسي يحول النص إلى سلسلة من الأحرف الآمنة للنقل. يستخدم في العديد من التطبيقات.</p>
+        </div>
+        <div class="col" style="border:1px solid #0AFFED44;border-radius:20px;padding:1.2rem;">
+          <h3 style="color:#0AFFED;"><i class="fas fa-arrow-right"></i> قيصر (Caesar)</h3>
+          <p>إزاحة كل حرف بمقدار 3 في الأبجدية. طريقة كلاسيكية وبسيطة.</p>
+        </div>
+        <div class="col" style="border:1px solid #FF005544;border-radius:20px;padding:1.2rem;">
+          <h3 style="color:#FF0055;"><i class="fas fa-exchange-alt"></i> عكس النص</h3>
+          <p>عكس ترتيب الأحرف بالكامل. طريقة سهلة ولكنها مفيدة للتجربة.</p>
+        </div>
+        <div class="col" style="border:1px solid #FFFF0044;border-radius:20px;padding:1.2rem;">
+          <h3 style="color:#FFFF00;"><i class="fas fa-sort-numeric-up"></i> ثنائي (Binary)</h3>
+          <p>تحويل كل حرف إلى تمثيله الثنائي (8 بت). طريقة رقمية بحتة.</p>
+        </div>
+      </div>
+      <div style="margin-top:1.5rem;border-top:1px solid #00FF4133;padding-top:1.5rem;">
+        <p><i class="fas fa-info-circle" style="color:#0AFFED;"></i> اختر الطريقة المناسبة لرسالتك، وتأكد من استخدام نفس الطريقة عند فك التشفير.</p>
+      </div>
+    </section>
+    <footer class="text-center" style="color:#555;padding:1rem 0;font-size:0.8rem;border-top:1px solid #00FF4122;margin-top:2rem;">
+      <i class="fas fa-code"></i> ElnegmCrypt — تشفير سايبر بنك <i class="fas fa-shield-alt"></i>
+    </footer>
+  </div>
+  <script src="js/matrix-rain.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/ui-effects.js"></script>
+</body>
+</html>
