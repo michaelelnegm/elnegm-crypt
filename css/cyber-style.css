@@ -1,0 +1,63 @@
+/* ============================================================ */
+/* ملف: css/cyber-style.css */
+/* ============================================================ */
+.btn {
+  background: transparent;
+  border: 2px solid #00FF41;
+  color: #00FF41;
+  padding: 0.8rem 2rem;
+  border-radius: 40px;
+  font-weight: 700;
+  font-family: 'Orbitron', monospace;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 20px #00FF4122;
+}
+.btn:hover {
+  background: #00FF41;
+  color: #0D0D0D;
+  box-shadow: 0 0 60px #00FF41, 0 0 120px #00FF4166;
+  transform: scale(1.02);
+}
+.btn-secondary {
+  border-color: #0AFFED;
+  color: #0AFFED;
+}
+.btn-secondary:hover {
+  background: #0AFFED;
+  color: #0D0D0D;
+  box-shadow: 0 0 60px #0AFFED;
+}
+.btn-danger {
+  border-color: #FF0055;
+  color: #FF0055;
+}
+.btn-danger:hover {
+  background: #FF0055;
+  color: #0D0D0D;
+  box-shadow: 0 0 60px #FF0055;
+}
+textarea, select, input {
+  width: 100%;
+  background: #111;
+  border: 1px solid #00FF4144;
+  color: #E0E0E0;
+  padding: 0.9rem 1.2rem;
+  border-radius: 16px;
+  font-size: 1rem;
+  font-family: 'Cairo', sans-serif;
+  transition: 0.3s;
+  resize: vertical;
+}
+textarea:focus, select:focus, input:focus {
+  outline: none;
+  border-color: #0AFFED;
+  box-shadow: 0 0 30px #0AFFED33;
+}
+select option {
+  background: #0D0D0D;
+}
